@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background:url(/images/georgievskoi-lentoi-dlya-prezentatsi-32.jpg) bottom no-repeat;
+background-size: cover ;
+
+    
+}
+
+h1{
+    color: rgb(226, 206, 206);
+    font-size: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links{
+    margin-bottom: 50px;
+}
+
+footer .links>a{
+    color: fuchsia;
+    padding: 30px;
+    font-size:25px ;
+    font-weight:600;
+    letter-spacing: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+
+
+}
+
+.copyright{
+    color: cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
