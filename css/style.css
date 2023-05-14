@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 header {
     display: flex;
     align-items: center;
@@ -9,34 +10,44 @@ header {
     height: 400px;
     background:url(/images/новости\ голова.png) bottom no-repeat;
 background-size: cover ;
-
-    
 }
 
 h1{
     color: rgb(226, 206, 206);
     font-size: 10rem;
     font-family: 'Times New Roman', Times, serif;
-    
 }
 
-.copyright{
-    color: cyan;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-}
-
-.news,.news3,.news5{
+.news,.news3,.news5,.news2,.news4{
     
     padding: 50px 0 32px;
-    background-color: rgb(218, 176, 176);}
+    background-color: rgb(218, 176, 176);
+}
 
-    .news2,.news4{
-        background-color: dimgrey;
-        padding: 50px 0 32px;
-    }
-   
+.news4:hover{
+    color: aqua;
+}
 
+.news2:hover{
+    color: aqua;
+}
+
+.news h2::after{
+    content: "New";
+    font-size:35;
+   color: greenyellow;
+    padding: 35;
+
+}
+
+
+.news2 h2::before{
+    content: "New";
+    font-size:100;
+    color: darkgoldenrod;
+    padding: 35;
+
+}
 
 article{
     width: 768;
@@ -47,16 +58,19 @@ article{
 
 article a:hover{
     color: rgb(251, 255, 0);
+    text-decoration: none;
 }
 
 article h2{
     font-family: Arial, Helvetica, sans-serif;
-    margin: bottom 25px; ;
+    margin: bottom 25px; 
+    text-decoration: none;
 }
 
 article-meta{
     color: brown;
     margin: bottom 5px;;
+   
 }
 article img{
     width: 100%;
@@ -86,3 +100,7 @@ footer .links>a{
 
 }
 
+.copyright{
+    color: cyan;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
